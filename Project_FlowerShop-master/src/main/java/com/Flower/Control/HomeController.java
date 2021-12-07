@@ -129,30 +129,35 @@ public class HomeController {
 	public String index1() {
 		return "index";
 	}
-	//상품목록(꽃,식물)
-	@RequestMapping(value = "/list_product_flower")
-	public String list_product_flower() {
+	//상품목록(꽃)
+	@RequestMapping(value = "/flowers")
+	public String flowers() {
 		
-		return "list_product_flower";
+		return "Product/flowers";
 	}
 	//상품목록(화분)
-	@RequestMapping(value = "/list_product_port")
-	public String list_product_port() {
+	@RequestMapping(value = "/pots")
+	public String pots() {
 		
-		return "list_product_port";
+		return "Product/pots";
 	}
-	//상품목록(선물)
-	@RequestMapping(value = "/list_product_gift")
-	public String list_product_gift() {
+	//상품목록(식물)
+	@RequestMapping(value = "/plants")
+	public String plants() {
 		
-		return "list_product_gift";
+		return "Product/plants";
 	}
-	//상품상세보기
-	@RequestMapping(value = "/list_details")
-	public String list_details() {
+	//상품(도구)
+	@RequestMapping(value = "/toolshed")
+	public String toolshed() {
 		
-		return "list_details";
+		return "Product/toolshed";
 	}
 	
-	
+	// 상품 상세보기
+	@RequestMapping(value = "/idx1")
+	public String idx1() {
+		
+		return "all-product-list/idx1";
+	}
 }

@@ -19,13 +19,13 @@
 					<header id="header_wrap" class="navbar text-uppercase">
 						<div class="navbar-header main-menu" style="width: 40%;">
 							<ul class="nav navbar-nav">
-								<li class="dropdown"><a class="" href="/pots"><span style="text-transform : capitalize">Pots</span></a></li>
-								<li class="dropdown"><a class="" href="/plants"><span style="text-transform : capitalize">Plants</span></a>
+								<li class="dropdown"><a class="" href="pots"><span style="text-transform : capitalize">Pots</span></a></li>
+								<li class="dropdown"><a class="" href="plants"><span style="text-transform : capitalize">Plants</span></a>
 								</li>
-								<li class="dropdown"><a class="" href="/flowers"><span style="text-transform : capitalize">Flowers</span></a>
+								<li class="dropdown"><a class="" href="flowers"><span style="text-transform : capitalize">Flowers</span></a>
 								</li>
 								</li>
-								<li class="dropdown"><a class="" href="/toolshed"><span style="text-transform : capitalize">Tool Shed</span></a>
+								<li class="dropdown"><a class="" href="toolshed"><span style="text-transform : capitalize">Tool Shed</span></a>
 								</li>
 							</ul>
 						</div>

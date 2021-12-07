@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Flower Shop Portfolio</title>
+    <title>Anthologia</title>
     
     <!-- Site CSS -->
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/style.css">
@@ -61,7 +61,7 @@
 					</div>
 					<div class="s2_row">
 						<div class="s2_p25">
-							<a href="/pots" style="display: block;"> <!-- *************  태그 경로 **************** -->
+							<a href="pots" style="display: block;"> <!-- *************  태그 경로 **************** -->
 								<div class="hover_image">
 									<div class="img_wrap">
 
@@ -94,7 +94,7 @@
 					</div>
 					<div class="s2_row">
 						<div class="s2_p25">
-							<a href="/plants" style="display: block;"> <!-- *************  태그 경로 **************** -->
+							<a href="plants" style="display: block;"> <!-- *************  태그 경로 **************** -->
 								<div class="hover_image">
 									<div class="img_wrap">
 
@@ -134,7 +134,7 @@
 					</div>
 					<div class="s2_row">
 						<div class="s2_p25" style="padding-left: 90px;">
-							<a href="/flowers" style="display: block;"> <!-- *************  태그 경로 **************** -->
+							<a href="flowers" style="display: block;"> <!-- *************  태그 경로 **************** -->
 								<div class="hover_image">
 									<div class="img_wrap">
 
@@ -162,7 +162,7 @@
 				<div class="s2_p25"	style="float: left; position: relative; padding-left: 20px;">
 					<div class="s2_row">
 						<div class="s2_p25">
-							<a href="/tool" style="display: block;"> <!-- *************  태그 경로 **************** -->
+							<a href="toolshed" style="display: block;"> <!-- *************  태그 경로 **************** -->
 								<div class="hover_image">
 									<div class="img_wrap">
 
@@ -202,80 +202,80 @@
 	<div class="s3_row thumb-row">
 		<div class="s3_col_dz s3_col_dz_w">
 			<div class="s3_stage" style="">
-				<div class="shop-grid s3_m0" style="float: left; width: 268px; margin-right: 0px;">
+				<div class="shop-grid s3_m0" style="float: left; width: 282px; margin-right: 0px;">
 					<div class="s3_shop-item"
-						style="width: 100%; padding: 0px 25px; height: auto; margin-top: 0;">
-						<a href="/shop view/?idx=1"> 										<!-- *********** 임시 매핑 ************ -->
+						style="width: 100%; padding: 0px 10px; height: auto; margin-top: 0;">
+						<a href="idx1">
 							<img src="${pageContext.request.contextPath}/resources/img/i1.png"
-							style="width: 218px; height: 410px; opacity: 1; display: block;">
+							style="width: 100%; height: 410px; opacity: 1; display: block;">
 						</a>
 					</div>
 					<div class="s3_item-thumbs"	style="line-height: 1.6; text-align: center;">
-						<a href="/shop view/?idx=1"> 										<!-- *********** 임시 매핑 ************ -->
-							<h2 style="font-weight: normal; color: #000; font-size: 16px;">
+						<a href="idx1">
+							<h2 style="font-weight: normal; color: #000; font-size: 14px;">
 								Bouquet Optic Vase - Clear</h2>
 							<div class="">
-								<p class="s3_pay" style="color: #000;">KRW 18,000</p>
+								<p class="s3_pay" style="color: #000; font-size: 11px;">KRW 18,000</p>
 							</div>
 						</a>
 					</div>
 				</div>
 			</div>
 				<div class="s3_stage" style="">
-					<div class="shop-grid s3_m0" style="float: left; width: 268px; margin-right: 0px;">
+					<div class="shop-grid s3_m0" style="float: left; width: 282px; margin-right: 0px;">
 						<div class="s3_shop-item"
-							style="width: 100%; padding: 0px 25px; height: auto; margin-top: 0;">
-							<a href="/shop view/?idx=2"> 										<!-- *********** 임시 매핑 ************ -->
+							style="width: 100%; padding: 0px 10px; height: auto; margin-top: 0;">
+							<a href="idx2">
 								<img src="${pageContext.request.contextPath}/resources/img/i2.png"
-								style="width: 218px; height: 410px; opacity: 1; display: block;">
+								style="width: 100%; height: 410px; opacity: 1; display: block;">
 							</a>
 						</div>
 						<div class="s3_item-thumbs"	style="line-height: 1.6; text-align: center;">
-							<a href="/shop view/?idx=2"> 										<!-- *********** 임시 매핑 ************ -->
-								<h2 style="font-weight: normal; color: #000; font-size: 16px;">
+							<a href="idx2">
+								<h2 style="font-weight: normal; color: #000; font-size: 14px;">
 									Aqua Culture Large Vase</h2>
 								<div class="">
-									<p class="s3_pay" style="color: #000;">KRW 31,000</p>
+									<p class="s3_pay" style="color: #000; font-size: 11px;">KRW 31,000</p>
 								</div>
 							</a>
 						</div>
 					</div>
 				</div>
 				<div class="s3_stage" style="">
-					<div class="shop-grid s3_m0" style="float: left; width: 268px; margin-right: 0px;">
+					<div class="shop-grid s3_m0" style="float: left; width: 282px; margin-right: 0px;">
 						<div class="s3_shop-item"
-							style="width: 100%; padding: 0px 25px; height: auto; margin-top: 0;">
-							<a href="/shop view/?idx=3"> 										<!-- *********** 임시 매핑 ************ -->
+							style="width: 100%; padding: 0px 10px; height: auto; margin-top: 0;">
+							<a href="idx3">
 								<img src="${pageContext.request.contextPath}/resources/img/i3.png"
-								style="width: 218px; height: 410px; opacity: 1; display: block;">
+								style="width: 100%; height: 410px; opacity: 1; display: block;">
 							</a>
 						</div>
 						<div class="s3_item-thumbs"	style="line-height: 1.6; text-align: center;">
-							<a href="/shop view/?idx=3"> 										<!-- *********** 임시 매핑 ************ -->
-								<h2 style="font-weight: normal; color: #000; font-size: 16px;">
+							<a href="idx3">
+								<h2 style="font-weight: normal; color: #000; font-size: 14px;">
 									Geometric Shapes - Sphere, Cube</h2>
 								<div class="">
-									<p class="s3_pay" style="color: #000;">KRW 18,000</p>
+									<p class="s3_pay" style="color: #000; font-size: 11px;">KRW 18,000</p>
 								</div>
 							</a>
 						</div>
 					</div>
 				</div>
 				<div class="s3_stage" style="">
-					<div class="shop-grid s3_m0" style="float: left; width: 268px; margin-right: 0px;">
+					<div class="shop-grid s3_m0" style="float: left; width: 282px; margin-right: 0px;">
 						<div class="s3_shop-item"
-							style="width: 100%; padding: 0px 25px; height: auto; margin-top: 0;">
-							<a href="/shop view/?idx=4"> 										<!-- *********** 임시 매핑 ************ -->
+							style="width: 100%; padding: 0px 10px; height: auto; margin-top: 0;">
+							<a href="idx4">
 								<img src="${pageContext.request.contextPath}/resources/img/i4.png"
-								style="width: 218px; height: 410px; opacity: 1; display: block;">
+								style="width: 100%; height: 410px; opacity: 1; display: block;">
 							</a>
 						</div>
 						<div class="s3_item-thumbs"	style="line-height: 1.6; text-align: center;">
-							<a href="/shop view/?idx=4"> 										<!-- *********** 임시 매핑 ************ -->
-								<h2 style="font-weight: normal; color: #000; font-size: 16px;">
+							<a href="idx4">
+								<h2 style="font-weight: normal; color: #000; font-size: 14px;">
 									Bouquet Optic Vase - Clear</h2>
 								<div class="">
-									<p class="s3_pay" style="color: #000;">KRW 38,000</p>
+									<p class="s3_pay" style="color: #000; font-size: 11px;">KRW 38,000</p>
 								</div>
 							</a>
 						</div>
